@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Basil & Flame — Order Online</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="ankey.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">Basil <span>&</span> Flame</div>
+  <button class="cartbtn" id="open" aria-label="Open cart">Cart <b id="count">0</b></button>
+</header>
+
+<section class="hero">
+  <h1>Hot food, ordered in under a minute.</h1>
+  <p>Pick your dishes, check your cart, and we'll have them at your door in about 30 minutes.</p>
+</section>
+
+<nav class="tabs" id="tabs" aria-label="Menu categories"></nav>
+<main id="menu"></main>
+
+<div id="shade"></div>
+<aside id="cart" aria-label="Your cart">
+  <div class="top">
+    <h2>Your order</h2>
+    <button class="x" id="close" aria-label="Close cart">&times;</button>
+  </div>
+  <div id="body" style="display:flex;flex-direction:column;flex:1;min-height:0"></div>
+</aside>
+
+<script src="ankey.js"></script>
+</body>
+</html>
